@@ -28,4 +28,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64          # 👈 build for AKS node arch
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/myapp:v1.  # 👈 NEW TAG
+          tags: ${{ secrets.DOCKER_USERNAME }}/myapp:v1  # 👈 NEW TAG
