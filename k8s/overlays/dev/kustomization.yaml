@@ -1,4 +1,4 @@
+namespace: dev
+
 bases:
   - ../../base
-
-nameSuffix: -dev

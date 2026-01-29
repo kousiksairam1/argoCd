@@ -1,4 +1,4 @@
+namespace: prod
+
 bases:
   - ../../base
-
-nameSuffix: -prod
