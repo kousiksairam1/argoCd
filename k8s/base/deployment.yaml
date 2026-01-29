@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: kousiksairm/myapp:v1
-          imagePullPolicy: Always
+          image: kousiksairm/myapp:v2    # 👈 correct username + new tag
+          imagePullPolicy: Always        # 👈 force fresh pull during debugging
           ports:
             - containerPort: 5000
-         
