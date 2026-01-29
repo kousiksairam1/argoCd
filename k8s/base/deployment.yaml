@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: kousiksairm/myapp:latest
+          image: kousiksairm/myapp:v1
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
-          imagePullPolicy: Always
+         
