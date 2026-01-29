@@ -12,9 +12,11 @@ spec:
       labels:
         app: myapp
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
         - name: myapp
           image: kousiksairm/myapp:v1
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
